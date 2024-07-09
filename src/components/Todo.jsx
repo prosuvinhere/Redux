@@ -16,7 +16,7 @@ export default function Todo() {
     return(
         <>
         <AddForm></AddForm>
-        <h3>Todos List App</h3>
+        <h2>Todos List App</h2>
         <ul>
             {todos.map((todo) => (
             <li key = {todo.id}>
